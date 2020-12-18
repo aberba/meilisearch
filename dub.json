@@ -6,7 +6,7 @@
 	"dependencies": {
 		"requests": "~>2.0.0"
 	},
-	"description": "A minimal D application.",
+	"description": "An API for MeiliSearch, a lightweight and fast search engine alternative to elasticsearch.",
 	"license": "BSL-1.0",
 	"homepage": "https://github.com/aberba/meilisearch",
 	"targetType": "library",
