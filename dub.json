@@ -1,0 +1,14 @@
+{
+	"authors": [
+		"Lawrence Aberba"
+	],
+	"copyright": "Copyright © 2020, Lawrence Aberba",
+	"dependencies": {
+		"requests": "~>2.0.0"
+	},
+	"description": "A minimal D application.",
+	"license": "BSL-1.0",
+	"homepage": "https://github.com/aberba/meilisearch",
+	"targetType": "library",
+	"name": "meilisearch"
+}

@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/meilisearch
+meilisearch.so
+meilisearch.dylib
+meilisearch.dll
+meilisearch.a
+meilisearch.lib
+meilisearch-test-*
+*.exe
+*.o
+*.obj
+*.lst
+meilisearch
