@@ -3,6 +3,7 @@
 [MeiliSearch](https://meilisearch.com) is a lightweight and fast search engine with a RESTfull search API. It's a modern alternative to elasticsearch and co.
 
 ### Usage
+Downalod and run MeiliSearch in your command-line with `./meilisearch --master-key YOUR_KEY_HERE`
 
 > Note: this API used [requests]() for handling HTTP request and so all responses are of type `Response`.
 
@@ -14,7 +15,9 @@ import requests: Response;
 
 void main()
 {
-	auto client = new Client("http://127.0.0.1:7700", "12345");
+	// Use your own host and master key
+	// See https://docs.meilisearch.com/guides/advanced_guides/authentication.html#api-key
+	auto client = new Client("http://127.0.0.1:7700", "YOUR_KEY_HERE");
 	auto index = client.createIndex("users");
 
 	Response r = index.health();
