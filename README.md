@@ -5,7 +5,7 @@
 ### Usage
 Downalod and run MeiliSearch in your command-line with `./meilisearch --master-key YOUR_KEY_HERE`
 
-> Note: this API used [requests]() for handling HTTP request and so all responses are of type `Response`.
+> Note: this API used [requests](https://code.dlang.org/packages/requests) for handling HTTP request and so all responses are of type `Response`.
 
 
 ```d
