@@ -4,11 +4,11 @@
 	],
 	"copyright": "Copyright © 2020, Lawrence Aberba",
 	"dependencies": {
+		"painlessjson": "~>1.4.0",
 		"requests": "~>2.0.0"
 	},
 	"description": "An API for MeiliSearch, a lightweight and fast search engine alternative to elasticsearch.",
-	"license": "BSL-1.0",
 	"homepage": "https://github.com/aberba/meilisearch",
-	"targetType": "library",
+	"license": "BSL-1.0",
 	"name": "meilisearch"
 }

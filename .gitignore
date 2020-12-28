@@ -14,3 +14,4 @@ meilisearch-test-*
 *.obj
 *.lst
 meilisearch
+meilisearch-js-master**
